@@ -99,9 +99,9 @@ node server.js
 
 ---
 
-## 📸 Screenshots
+## VIdeo
 
-Add your project screenshots here.
+[Add your project screenshots here.](https://github.com/professionalduobykt-2523/Hospital_Management_System/issues/1#issue-4928976477)
 
 ---
 
