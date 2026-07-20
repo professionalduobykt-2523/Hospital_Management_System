@@ -99,6 +99,114 @@ node server.js
 
 ---
 
+# 🍃 MongoDB Atlas Setup
+
+## Step 1: Create MongoDB Atlas Account
+
+Visit:
+
+https://www.mongodb.com/atlas
+
+Sign up using your Google account or Email.
+
+---
+
+## Step 2: Create a Free Cluster
+
+- Click **Build a Database**
+- Select **M0 Free Cluster**
+- Choose a Cloud Provider (AWS Recommended)
+- Select a Region
+- Click **Create Cluster**
+
+---
+
+## Step 3: Create Database User
+
+Go to
+
+**Database Access**
+
+Click
+
+**Add New Database User**
+
+Enter
+
+- Username
+- Password
+
+Assign
+
+- Read and Write Permissions
+
+Save the user.
+
+---
+
+## Step 4: Allow Network Access
+
+Go to
+
+**Network Access**
+
+Click
+
+**Add IP Address**
+
+Choose
+
+```
+Allow Access From Anywhere (0.0.0.0/0)
+```
+
+or add your own IP address.
+
+---
+
+## Step 5: Connect Your Application
+
+Open your Cluster
+
+Click
+
+```
+Connect
+```
+
+Choose
+
+```
+Drivers
+```
+
+Select
+
+```
+Node.js
+```
+
+Copy the generated connection string.
+
+Example:
+
+```javascript
+mongoose.connect(
+"mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/NotesDB"
+)
+.then(() => console.log("✅ MongoDB Connected"))
+.catch(err => console.log(err));
+```
+
+Replace
+
+- **username** → Your MongoDB Username
+- **password** → Your MongoDB Password
+- **NotesDB** → Your Database Name
+
+---
+
+
 ## VIdeo
 
 https://github.com/user-attachments/assets/d2dcc7db-6b41-46b8-b87a-c852c53584a7
