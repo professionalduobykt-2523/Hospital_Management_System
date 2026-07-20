@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 //Connect to the MongoDB
 
 mongoose.connect(
-  "mongodb+srv://rakhi57776_db_user:7835812188@cluster0.fgcgb6v.mongodb.net/Data_Store?retryWrites=true&w=majority&appName=Cluster0"
+  "mongodb+srv://USERNAME:PASSWORD@cluster0.fgcgb6v.mongodb.net/Data_Store?retryWrites=true&w=majority&appName=Cluster0"
 )
 
   .then(() => {
