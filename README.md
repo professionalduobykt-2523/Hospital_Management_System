@@ -101,7 +101,7 @@ node server.js
 
 ## VIdeo
 
-[Add your project screenshots here.](https://github.com/professionalduobykt-2523/Hospital_Management_System/issues/1#issue-4928976477)
+<!-- Failed to upload "Hospital Dashboard - Google Chrome 2026-07-20 18-00-20.mp4" -->
 
 ---
 
